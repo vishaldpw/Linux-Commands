@@ -12,3 +12,7 @@ https://www.geeksforgeeks.org/vmstat-command-in-linux-with-examples/
 
 iostat
 https://linuxhint.com/use-iostat-command-in-linux/
+
+
+sar -n
+tcpdump
