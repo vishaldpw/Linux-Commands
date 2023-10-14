@@ -16,3 +16,19 @@ https://linuxhint.com/use-iostat-command-in-linux/
 
 sar -n
 tcpdump
+
+
+=============
+
+install packages 
+
+netstat -nr 
+
+ps -ef  |  ps -aux
+
+dig / nslookup
+
+start / stop service || enable service
+
+
+
