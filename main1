@@ -32,5 +32,9 @@ start / stop service || enable service
 
 ethtool and mptool 
 
+telnet <port>
+
+Firewall stop / start
+
 
 
