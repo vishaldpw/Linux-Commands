@@ -30,5 +30,7 @@ dig / nslookup
 
 start / stop service || enable service
 
+ethtool and mptool 
+
 
 
