@@ -1,0 +1,14 @@
+top
+htop
+
+sar  
+https://www.thegeekstuff.com/2011/03/sar-examples/
+
+vmstat command (also known as virtual memory statistic tool) shows information about processes, memory, disk, and CPU activity in Linux, 
+whereas the iostat command is used to monitor CPU utilization, system input/output statistics for all the disks and partitions.
+
+vmstat
+https://www.geeksforgeeks.org/vmstat-command-in-linux-with-examples/
+
+iostat
+https://linuxhint.com/use-iostat-command-in-linux/
