@@ -20,8 +20,6 @@ tcpdump
 
 =============
 
-install packages 
-
 netstat -nr 
 
 ps -ef  |  ps -aux
@@ -36,5 +34,6 @@ telnet <port>
 
 Firewall stop / start
 
+install packages 
 
 
