@@ -1,5 +1,9 @@
-top
-htop
+top 
+ Shift + u -- CPU sorting
+ Shift + m -- memory Sorting 
+ q to come out
+
+htop (grafical top) 
 
 sar  
 https://www.thegeekstuff.com/2011/03/sar-examples/
