@@ -4,7 +4,7 @@ top
  q to come out
 
 htop (grafical top) 
-
+=======================================
 sar  
 https://www.thegeekstuff.com/2011/03/sar-examples/
 
@@ -17,27 +17,34 @@ https://www.geeksforgeeks.org/vmstat-command-in-linux-with-examples/
 iostat
 https://linuxhint.com/use-iostat-command-in-linux/
 
-
+==== network ====================
 sar -n
 tcpdump
 
-
 =============
 
-netstat -nr 
+netstat -nr  (this shows the route table) 
 
-ps -ef  |  ps -aux
-
+Process related
+ps -ef (basic) 
+ps -aux (more details)
+===============  
+DNS related
 dig / nslookup
+=====================================
 
-start / stop service || enable service
 
 ethtool and mptool 
 
+netstat -antup  (it shows the server listening ports) 
+
 telnet <port>
 
+install packages -- apt install <package>
+
+start / stop service || enable service
+systemctl start jenkins.service
+
+
 Firewall stop / start
-
-install packages 
-
 
