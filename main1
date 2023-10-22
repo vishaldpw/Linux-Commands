@@ -48,3 +48,38 @@ systemctl start jenkins.service
 
 Firewall stop / start
 
+
+Linux Booting process:
+The Linux boot process involves multiple stages and software components. The stages are: 
+BIOS: The Basic Input Output System performs a Power On Self Test (POST).
+MBR: The Master Boot Record is searched for, loaded, and executed. The MBR can be found on a USB stick or CD-ROM.
+GRUB: GRUB can be used to boot multiple operating systems, such as Linux or Windows.
+Kernel: The kernel boots the devices and drivers, and mounts the common filesystem.
+Init: Various startup scripts and daemons are executed.
+Runlevel programs: Runlevel programs are executed.
+
+
+ssh serever
+
+/var --variable -- logs / mail / crash
+/etc -- config files
+
+Super User Commands
+/usr/sbin  /sbin
+
+normal users
+/usr/bin /bin
+
+ /sbin contains system-level binaries that require superuser (root) privileges --  EX: fsck, init, route
+/usr/sbin contains non-essential system binaries that also require superuser (root) privileges --  Examples of daemon mgmt 
+
+
+
+check Following Logs (before and After Event) 
+	ILO. BMC, idrac
+	dmesgs Command
+	/var/log/syslog
+
+	run some diagnostics
+
+
